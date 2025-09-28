@@ -1,0 +1,2 @@
+import Link from 'next/link'
+export default function SidebarCTA(){ return (<aside className="sidebar-cta"><p><strong>Facing Foreclosure?</strong><br/>Time is critical. Get a fair offer today.</p><a className="btn btn-light" href="tel:5555555555">📞 Call Us Now</a><Link href="/contact"><a className="btn btn-dark">Request Cash Offer</a></Link></aside>) }
